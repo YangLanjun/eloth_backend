@@ -20,9 +20,12 @@ public class UserService {
     @Autowired
     UserDao userDao;
 
-    public Result getUserById() {
-        Optional<User> user = userDao.findById(1);
-        return ResultUtil.resultGoodReturner(user);
+    public User getUserById(int id) {
+        Optional<User> user = userDao.findById(id);
+        if (!user.isPresent()){
+            return null;
+        }
+        return user.get();
     }
 
     public Result login(String username, String password) {

@@ -18,10 +18,11 @@ public class ClothController {
     public Object addCloth(@RequestParam(value = "color") String color,
                            @RequestParam(value = "type") String type,
                            @RequestParam(value = "size") String size,
-                           @RequestParam(value = "clothtype") String clothType,
+                           @RequestParam(value = "usability")boolean usability,
+                           @RequestParam(value = "class") String clothType,
                            @RequestHeader(value = "Authorization")String accessToken){
 
-        return clothService.addCloth(color,type,size,accessToken,clothType);
+        return clothService.addCloth(color,type,size,usability,accessToken,clothType);
     }
     @GetMapping(value = "tops")
     public Object getUserTops(@RequestHeader(value = "Authorization")String accessToken){

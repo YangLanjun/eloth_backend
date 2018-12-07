@@ -74,8 +74,8 @@ public class UserService {
     }
 
     //修改密码
-    public Result modifyPassword(String userName, String new_password, String old_password) {
-        Optional<User> optionalUser=userDao.findByUserName(userName);
+    public Result modifyPassword(String accessToken, String new_password, String old_password) {
+        Optional<User> optionalUser=userDao.findByAccessToken(accessToken);
         if (!optionalUser.isPresent()) {
             return ResultUtil.resultBadReturner("找不到该用户");
         }

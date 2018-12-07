@@ -32,7 +32,7 @@ public class ClothService {
         this.shoesDao = shoesDao;
     }
 
-    public Result addCloth(String color, String type, String size, String accessToken, String ClothType) {
+    public Result addCloth(String color, String type, String size, boolean usability,String accessToken, String ClothType) {
         Optional<User> userOptional = userDao.findByAccessToken(accessToken);
         if (!userOptional.isPresent()) {
             return AccessUtil.ACCESSDENY();
@@ -57,7 +57,7 @@ public class ClothService {
         cloth.setColor(color);
         cloth.setSize(size);
         cloth.setType(type);
-        cloth.setCanUse(true);
+        cloth.setUsability(usability);
         cloth.setUser(userOptional.get());
         Cloth clothReturner;
         clothReturner = clothDao.save(cloth);

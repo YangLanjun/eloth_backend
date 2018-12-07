@@ -22,9 +22,8 @@ public class UserController {
     }
 
     @PostMapping(value = "/modifypwd")
-    public Object modifyPwd(@RequestParam(value = "name") String username,
-                            @RequestParam(value = "newpassword") String new_password, @RequestParam(value = "oldpassword") String old_password) throws Exception {
-        return userService.modifyPassword(username, new_password, old_password);
+    public Object modifyPwd(@RequestParam(value = "newpassword") String new_password, @RequestParam(value = "oldpassword") String old_password,@RequestHeader(value = "Authorization")String accessToken) throws Exception {
+        return userService.modifyPassword(accessToken, new_password, old_password);
     }
 
     @GetMapping(value = "/getall")

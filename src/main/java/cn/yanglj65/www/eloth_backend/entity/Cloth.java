@@ -35,16 +35,15 @@ public abstract class Cloth {
     @Column(name = "size")
     @NotNull
     private String size;
-    @Column(name = "can_use")
+    @Column(name = "usability")
     @NotNull
-    private boolean canUse = true;
-
-    public boolean isCanUse() {
-        return canUse;
+    private boolean usability = true;
+    public boolean isUsability() {
+        return usability;
     }
 
-    public void setCanUse(boolean canUse) {
-        this.canUse = canUse;
+    public void setUsability(boolean usability) {
+        this.usability = usability;
     }
 
     public int getId() {

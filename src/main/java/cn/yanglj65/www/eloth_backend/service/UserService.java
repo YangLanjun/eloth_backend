@@ -17,15 +17,16 @@ import java.util.UUID;
 @Service
 public class UserService {
 
+    private final UserDao userDao;
+
     @Autowired
-    UserDao userDao;
+    public UserService(UserDao userDao) {
+        this.userDao = userDao;
+    }
 
     public User getUserById(int id) {
         Optional<User> user = userDao.findById(id);
-        if (!user.isPresent()){
-            return null;
-        }
-        return user.get();
+        return user.orElse(null);
     }
 
     public Result login(String username, String password) {

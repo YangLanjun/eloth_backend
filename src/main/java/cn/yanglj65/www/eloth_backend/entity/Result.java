@@ -1,5 +1,9 @@
 package cn.yanglj65.www.eloth_backend.entity;
 
+import cn.yanglj65.www.eloth_backend.view.UserView;
+import com.fasterxml.jackson.annotation.JsonView;
+
+@JsonView(UserView.UserCommonView.class)
 public class Result {
     private int errCode;
     private String msg;

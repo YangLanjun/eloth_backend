@@ -1,5 +1,6 @@
 package cn.yanglj65.www.eloth_backend.controller;
 
+import cn.yanglj65.www.eloth_backend.entity.User;
 import cn.yanglj65.www.eloth_backend.service.ClothService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -20,24 +21,24 @@ public class ClothController {
                            @RequestParam(value = "size") String size,
                            @RequestParam(value = "usability")boolean usability,
                            @RequestParam(value = "class") String clothType,
-                           @RequestHeader(value = "Authorization")String accessToken){
+                           @RequestAttribute(value = "USER") User user){
 
-        return clothService.addCloth(color,type,size,usability,accessToken,clothType);
+        return clothService.addCloth(color,type,size,usability,user,clothType);
     }
     @GetMapping(value = "tops")
-    public Object getUserTops(@RequestHeader(value = "Authorization")String accessToken){
-        return clothService.returnUserTops(accessToken);
+    public Object getUserTops(@RequestAttribute(value = "USER") User user){
+        return clothService.returnUserTops(user);
     }
     @GetMapping(value = "pants")
-    public Object getUserPants(@RequestHeader(value = "Authorization")String accessToken){
-        return clothService.returnUserPants(accessToken);
+    public Object getUserPants(@RequestAttribute(value = "USER") User user){
+        return clothService.returnUserPants(user);
     }
     @GetMapping(value = "shoes")
-    public Object getUserShoes(@RequestHeader(value = "Authorization")String accessToken){
-        return clothService.returnUserShoes(accessToken);
+    public Object getUserShoes(@RequestAttribute(value = "USER") User user){
+        return clothService.returnUserShoes(user);
     }
     @GetMapping(value = "getall")
-    public Object getUserCloths(@RequestHeader(value = "Authorization")String accessToken){
-        return clothService.returnUserCloths(accessToken);
+    public Object getUserCloths(@RequestAttribute(value = "USER") User user){
+        return clothService.returnUserCloths(user);
     }
 }

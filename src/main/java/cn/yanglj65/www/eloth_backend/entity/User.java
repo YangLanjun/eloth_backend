@@ -1,5 +1,9 @@
 package cn.yanglj65.www.eloth_backend.entity;
 
+import cn.yanglj65.www.eloth_backend.view.UserView;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonView;
+
 import javax.persistence.*;
 
 @Entity
@@ -7,20 +11,27 @@ import javax.persistence.*;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @JsonView(UserView.UserCommonView.class)
     private int id;
     @Column(name = "user_name")
+    @JsonView(UserView.UserCommonView.class)
     private String userName;
     @Column(name = "password")
+    @JsonIgnore
     private String password;
     @Column(name = "access_token")
+    @JsonView(UserView.UserCommonView.class)
     private String accessToken;
     @Column(name = "is_deleted")
-    private boolean isDeleted = false;
+    private boolean deleted = false;
     @Column(name = "create_time")
+    @JsonView(UserView.UserCommonView.class)
     private String createTime;
     @Column(name="role")
+    @JsonView(UserView.UserCommonView.class)
     private String role="COMMON";
     @Column(name="phone")
+    @JsonView(UserView.UserCommonView.class)
     private  String phone;
 
     public String getPhone() {
@@ -40,11 +51,11 @@ public class User {
     }
 
     public boolean isDeleted() {
-        return isDeleted;
+        return deleted;
     }
 
     public void setDeleted(boolean deleted) {
-        isDeleted = deleted;
+        this.deleted = deleted;
     }
 
     public String getCreateTime() {

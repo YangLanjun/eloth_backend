@@ -16,7 +16,8 @@ public class BugController {
     }
 
     @PostMapping(value = "/send")
-    public Object sendBud(@RequestParam(value = "bug") String bug, @RequestHeader(value = "Authorization") String accessToken) {
-        return bugService.sendBug(accessToken, bug);
+    public Object sendBud(@RequestParam(value = "bug") String bug,
+                          @RequestAttribute(value = "USER_ID") int user_id) {
+        return bugService.sendBug(bug,user_id);
     }
 }

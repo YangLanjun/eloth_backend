@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 @Repository
 public interface UserDao extends JpaRepository<User,Integer> {
-    Optional<User> findByUserName(String userName);
-    Optional<User> findByAccessToken(String accessToken);
+    Optional<User> findByUserNameAndDeletedFalse(String userName);
+    Optional<User> findByAccessTokenAndDeletedFalse(String accessToken);
 }

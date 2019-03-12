@@ -24,21 +24,14 @@ public class UserService {
         this.userDao = userDao;
     }
 
-    public User getUserById(int id) {
-        Optional<User> user = userDao.findById(id);
-        return user.orElse(null);
-    }
-
     public Result login(String username, String password) {
-        Optional<User> optionalUser=userDao.findByUserName(username);
+        Optional<User> optionalUser=userDao.findByUserNameAndDeletedFalse(username);
         if (username != null) {
             if (!optionalUser.isPresent()) {
                 return ResultUtil.resultBadReturner("找不到该用户");
             }
             User user =optionalUser.get();
-            if(user.isDeleted()){
-                return ResultUtil.resultBadReturner("该用户已被删除");
-            }else if (!user.getPassword().equals(DigestUtils.md5DigestAsHex(password.getBytes()))) {
+           if (!user.getPassword().equals(DigestUtils.md5DigestAsHex(password.getBytes()))) {
                 return ResultUtil.resultBadReturner("密码错误");
             } else {
                 final String accessToken = UUID.randomUUID().toString().replace("-", "");
@@ -52,8 +45,8 @@ public class UserService {
     }
 
     //注册
-    public Result signUp(String username, String password,String phone) {
-        Optional<User> optionalUser=userDao.findByUserName(username);
+    public Result register(String username, String password,String phone) {
+        Optional<User> optionalUser=userDao.findByUserNameAndDeletedFalse(username);
         if (optionalUser.isPresent()) {
             return ResultUtil.resultBadReturner("该用户名已被注册");
         }
@@ -75,15 +68,8 @@ public class UserService {
     }
 
     //修改密码
-    public Result modifyPassword(String accessToken, String new_password, String old_password) {
-        Optional<User> optionalUser=userDao.findByAccessToken(accessToken);
-        if (!optionalUser.isPresent()) {
-            return ResultUtil.resultBadReturner("找不到该用户");
-        }
-        User user = optionalUser.get();
-        if(user.isDeleted()){
-            return ResultUtil.resultBadReturner("该用户已被删除");
-        }else if (!user.getPassword().equals(DigestUtils.md5DigestAsHex(old_password.getBytes()))) {
+    public Result modifyPassword(User user, String new_password, String old_password) {
+       if (!user.getPassword().equals(DigestUtils.md5DigestAsHex(old_password.getBytes()))) {
             return ResultUtil.resultBadReturner("当前密码错误");
         } else {
             user.setPassword(DigestUtils.md5DigestAsHex(new_password.getBytes()));
@@ -110,9 +96,6 @@ public class UserService {
             return ResultUtil.resultBadReturner("找不到该用户");
         }else{
             User user =optionalUser.get();
-            if(user.isDeleted()){
-                return ResultUtil.resultBadReturner("用户已被删除");
-            }
             if(user.getRole().equals("SUPER")){
                 return ResultUtil.resultBadReturner("管理员用户不能被删除");
             }

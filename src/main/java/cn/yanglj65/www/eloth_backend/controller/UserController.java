@@ -6,13 +6,13 @@ import cn.yanglj65.www.eloth_backend.view.UserView;
 import com.fasterxml.jackson.annotation.JsonView;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping(value = "/user")
 public class UserController {
     @Autowired
     UserService userService;
-
     @PostMapping(value = "/login")
     public Object login(@RequestParam(value = "name") String username,
                         @RequestParam(value = "password") String password) throws Exception {
@@ -41,5 +41,17 @@ public class UserController {
     @PostMapping(value = "/delete")
     public Object deleteUser(@RequestParam(value = "id") int id) {
         return userService.deleteUser(id);
+    }
+
+    @PostMapping(value = "/upload/avatar")
+    public Object uploadAvatar(@RequestParam("avatar") MultipartFile file, @RequestHeader("id") int nickId) {
+       // timeCalculationAspect.printTime();
+        return userService.uploadAvatar(file, nickId);
+    }
+
+    @GetMapping(value = "/getavatar")
+    @ResponseBody
+    public Object getAvatar(@RequestParam("id") int nickId){
+        return userService.getAvatar(nickId);
     }
 }

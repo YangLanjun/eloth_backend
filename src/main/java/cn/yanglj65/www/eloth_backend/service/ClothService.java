@@ -89,4 +89,11 @@ public class ClothService {
     private ArrayList<Shoes> getShoesByUser(User user) {
         return shoesDao.getAllByUser(user);
     }
+
+    public  void textExtendsAndInterface(){
+        Cloth cloth=new Shoes();
+        ((Shoes) cloth).showShoes();
+        ClothInterface clothInterface=new Shoes();
+        clothInterface.showCloth();
+    }
 }

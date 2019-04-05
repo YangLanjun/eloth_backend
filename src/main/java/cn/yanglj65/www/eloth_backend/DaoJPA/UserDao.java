@@ -9,4 +9,5 @@ import java.util.Optional;
 public interface UserDao extends JpaRepository<User,Integer> {
     Optional<User> findByUserNameAndDeletedFalse(String userName);
     Optional<User> findByAccessTokenAndDeletedFalse(String accessToken);
+    Optional<User> findByNickId(int nickId);
 }

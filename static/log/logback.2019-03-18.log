@@ -1,0 +1,1058 @@
+00:43:26.395 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 1832 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+00:43:26.410 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+00:43:27.457 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+00:43:27.504 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+00:43:27.629 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109ms. Found 6 repository interfaces.
+00:43:28.067 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9bd3a6ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:43:28.512 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+00:43:28.530 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+00:43:28.536 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:43:28.537 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+00:43:28.537 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+00:43:29.426 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:43:29.426 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2969 ms
+00:43:29.629 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:43:29.879 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:43:30.051 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+00:43:30.192 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+00:43:30.192 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+00:43:30.396 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+00:43:30.636 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+00:43:30.929 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+00:43:31.818 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+00:43:32.192 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+00:43:32.214 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+00:43:32.215 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+00:43:32.215 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+00:43:32.215 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+00:43:32.215 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+00:43:32.668 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+00:43:32.715 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+00:43:33.059 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+00:43:33.059 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+00:43:33.074 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+00:43:33.090 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 7.336 seconds (JVM running for 17.462)
+00:46:36.028 logback [http-nio-8008-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:46:36.028 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:46:36.028 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+00:46:36.091 logback [http-nio-8008-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+00:47:08.059 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 7744 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+00:47:08.174 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+00:47:09.377 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+00:47:09.429 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+00:47:09.565 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125ms. Found 6 repository interfaces.
+00:47:10.040 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$56a3e15f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:47:10.473 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+00:47:10.490 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+00:47:10.496 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:47:10.496 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+00:47:10.505 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+00:47:10.745 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:47:10.746 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2499 ms
+00:47:11.016 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:47:11.188 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:47:11.440 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+00:47:11.542 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+00:47:11.545 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+00:47:11.744 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+00:47:11.982 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+00:47:12.231 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+00:47:13.111 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+00:47:13.477 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+00:47:13.483 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+00:47:13.483 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+00:47:13.483 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+00:47:13.483 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+00:47:13.483 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+00:47:14.014 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+00:47:14.068 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+00:47:14.367 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+00:47:14.381 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+00:47:14.400 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+00:47:14.404 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 7.744 seconds (JVM running for 9.301)
+00:47:46.605 logback [http-nio-8008-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:47:46.606 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:47:46.616 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+00:47:46.734 logback [http-nio-8008-exec-2] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+13:46:35.955 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 16220 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+13:46:35.962 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+13:46:37.256 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+13:46:37.308 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:46:37.441 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125ms. Found 6 repository interfaces.
+13:46:37.870 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3718788a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:46:38.382 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+13:46:38.401 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+13:46:38.406 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:46:38.407 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:46:38.418 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+13:46:38.631 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:46:38.632 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2572 ms
+13:46:38.821 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:46:38.972 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:46:39.164 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+13:46:39.285 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+13:46:39.288 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+13:46:39.494 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+13:46:39.710 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+13:46:39.937 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+13:46:40.801 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:46:41.146 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+13:46:41.152 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:46:41.152 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:46:41.153 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+13:46:41.153 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+13:46:41.153 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+13:46:41.617 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:46:41.665 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:46:41.923 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+13:46:41.935 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+13:46:41.953 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+13:46:41.955 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 7.196 seconds (JVM running for 8.675)
+13:47:26.377 logback [http-nio-8008-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:47:26.377 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:47:26.388 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+13:47:26.447 logback [http-nio-8008-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+13:47:48.348 logback [http-nio-8008-exec-3] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+13:50:32.848 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 1164 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+13:50:32.854 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+13:50:34.041 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+13:50:34.092 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:50:34.216 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115ms. Found 6 repository interfaces.
+13:50:34.648 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c33a48b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:50:35.072 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+13:50:35.090 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+13:50:35.096 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:50:35.096 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:50:35.105 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+13:50:35.295 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:50:35.296 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2330 ms
+13:50:35.498 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:50:35.634 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:50:35.811 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+13:50:35.916 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+13:50:35.919 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+13:50:36.080 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+13:50:36.274 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+13:50:36.492 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+13:50:37.300 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:50:37.625 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+13:50:37.633 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:50:37.633 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:50:37.633 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+13:50:37.633 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+13:50:37.633 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+13:50:38.111 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:50:38.161 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:50:38.418 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+13:50:38.431 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+13:50:38.448 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+13:50:38.450 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 6.853 seconds (JVM running for 8.249)
+13:51:00.862 logback [http-nio-8008-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:51:00.862 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:51:00.875 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+13:51:00.990 logback [http-nio-8008-exec-2] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+13:51:39.652 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 16072 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+13:51:39.658 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+13:51:40.736 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+13:51:40.793 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:51:40.950 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 143ms. Found 6 repository interfaces.
+13:51:41.482 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$228df497] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:51:41.995 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+13:51:42.015 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+13:51:42.021 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:51:42.022 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:51:42.031 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+13:51:42.271 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:51:42.272 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2535 ms
+13:51:42.520 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:51:42.831 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:51:42.919 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+13:51:43.053 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+13:51:43.058 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+13:51:43.289 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+13:51:43.608 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+13:51:43.910 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+13:51:44.941 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:51:45.366 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+13:51:45.372 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:51:45.373 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:51:45.373 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+13:51:45.373 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+13:51:45.373 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+13:51:45.908 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:51:45.962 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:51:46.278 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+13:51:46.294 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+13:51:46.328 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+13:51:46.335 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 7.51 seconds (JVM running for 11.69)
+13:52:18.234 logback [http-nio-8008-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:52:18.234 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:52:18.246 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+13:52:18.398 logback [http-nio-8008-exec-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+13:53:31.355 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 12896 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+13:53:31.362 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+13:53:32.517 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+13:53:32.590 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:53:32.831 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 226ms. Found 6 repository interfaces.
+13:53:33.468 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7a420215] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:53:34.080 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+13:53:34.100 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+13:53:34.107 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:53:34.107 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:53:34.116 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+13:53:34.348 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:53:34.348 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2909 ms
+13:53:34.587 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:53:34.875 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:53:34.948 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+13:53:35.057 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+13:53:35.061 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+13:53:35.288 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+13:53:35.571 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+13:53:35.852 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+13:53:36.878 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:53:37.288 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+13:53:37.296 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:53:37.297 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:53:37.297 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+13:53:37.297 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+13:53:37.297 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+13:53:37.810 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:53:37.866 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:53:38.234 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+13:53:38.252 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+13:53:38.277 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+13:53:38.281 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 7.754 seconds (JVM running for 10.238)
+13:53:46.942 logback [http-nio-8008-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:53:46.942 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:53:46.954 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+13:53:47.005 logback [http-nio-8008-exec-2] INFO  c.y.w.e.filter.AuthFilter - 该请求不需要通过过滤器
+13:53:47.103 logback [http-nio-8008-exec-2] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+14:06:33.931 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 2340 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+14:06:33.937 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+14:06:35.105 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+14:06:35.168 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:06:35.345 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 163ms. Found 6 repository interfaces.
+14:06:35.873 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b44ff73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:06:36.417 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+14:06:36.436 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+14:06:36.442 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:06:36.442 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:06:36.451 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+14:06:36.691 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:06:36.691 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2681 ms
+14:06:36.922 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:06:37.232 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:06:37.322 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+14:06:37.443 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+14:06:37.448 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:06:37.699 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+14:06:37.983 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:06:38.280 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+14:06:39.505 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:06:40.014 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:06:40.021 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:06:40.021 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:06:40.021 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+14:06:40.021 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:06:40.021 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+14:06:40.567 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:06:40.640 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:06:41.014 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+14:06:41.030 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:06:41.055 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+14:06:41.058 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 7.909 seconds (JVM running for 11.435)
+14:16:16.533 logback [http-nio-8008-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:16:16.533 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:16:16.660 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 127 ms
+14:16:16.848 logback [http-nio-8008-exec-2] INFO  c.y.w.e.filter.AuthFilter - 该请求不需要通过过滤器
+14:16:17.015 logback [http-nio-8008-exec-2] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+14:32:51.251 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 1796 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+14:32:51.259 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+14:32:52.514 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+14:32:52.571 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:32:52.730 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 147ms. Found 6 repository interfaces.
+14:32:53.248 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7dd3ea35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:32:53.779 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+14:32:53.799 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+14:32:53.805 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:32:53.806 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:32:53.817 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+14:32:54.758 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:32:54.758 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3419 ms
+14:32:54.990 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:32:55.303 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:32:55.386 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+14:32:55.521 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+14:32:55.525 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:32:55.788 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+14:32:56.063 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:32:56.366 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+14:32:57.440 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:32:57.891 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:32:57.899 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:32:57.900 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:32:57.900 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+14:32:57.900 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:32:57.900 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+14:32:58.469 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:32:58.537 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:32:58.891 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+14:32:58.908 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:32:58.932 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+14:32:58.935 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 8.51 seconds (JVM running for 11.833)
+14:33:07.762 logback [http-nio-8008-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:33:07.762 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:33:07.772 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+14:33:07.832 logback [http-nio-8008-exec-2] INFO  c.y.w.e.filter.AuthFilter - 该请求不需要通过过滤器
+14:33:07.978 logback [http-nio-8008-exec-2] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+14:38:40.372 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 14712 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+14:38:40.379 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+14:38:41.617 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+14:38:41.682 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:38:41.851 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 158ms. Found 6 repository interfaces.
+14:38:42.733 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$77473379] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:38:43.331 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+14:38:43.349 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+14:38:43.354 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:38:43.355 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:38:43.363 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+14:38:43.766 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:38:43.766 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3309 ms
+14:38:44.014 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:38:44.323 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:38:44.408 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+14:38:44.534 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+14:38:44.541 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:38:44.782 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+14:38:45.033 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:38:45.417 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+14:38:46.710 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:38:47.193 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:38:47.202 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:38:47.203 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:38:47.203 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+14:38:47.203 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:38:47.203 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+14:38:47.811 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:38:47.882 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:38:48.262 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+14:38:48.279 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:38:48.300 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+14:38:48.303 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 8.787 seconds (JVM running for 13.279)
+14:38:49.807 logback [http-nio-8008-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:38:49.807 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:38:49.819 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+14:38:49.894 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.AuthFilter - 该请求不需要通过过滤器
+14:38:50.030 logback [http-nio-8008-exec-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+14:47:49.452 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 14904 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+14:47:49.458 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+14:47:50.475 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+14:47:50.530 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:47:50.681 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139ms. Found 6 repository interfaces.
+14:47:51.186 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a9a6196f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:47:51.652 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+14:47:51.671 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+14:47:51.678 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:47:51.678 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:47:51.688 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+14:47:51.915 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:47:51.916 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2391 ms
+14:47:51.957 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:47:51.966 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:47:51.967 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:47:51.967 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+14:47:51.967 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:47:52.140 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:47:52.480 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:47:52.581 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+14:47:52.713 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+14:47:52.715 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:47:52.928 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+14:47:53.171 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:47:53.464 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+14:47:54.407 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:47:55.265 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:47:55.324 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:47:55.645 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+14:47:55.660 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:47:55.683 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+14:47:55.686 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 6.99 seconds (JVM running for 10.449)
+14:48:49.101 logback [http-nio-8008-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:48:49.102 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:48:49.114 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+14:49:15.788 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 9524 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+14:49:15.795 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+14:49:16.903 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+14:49:16.967 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:49:17.146 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 166ms. Found 6 repository interfaces.
+14:49:17.695 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4c30298c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:18.182 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+14:49:18.202 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+14:49:18.209 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:49:18.210 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:49:18.220 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+14:49:18.451 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:49:18.451 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2583 ms
+14:49:18.708 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:49:19.047 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:49:19.127 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+14:49:19.245 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+14:49:19.249 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:49:19.484 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+14:49:19.739 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:49:20.041 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+14:49:21.057 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:49:21.483 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:49:21.491 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:49:21.491 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:49:21.491 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+14:49:21.491 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:49:21.491 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+14:49:22.000 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:49:22.056 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:49:22.369 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+14:49:22.385 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:49:22.408 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+14:49:22.411 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 7.341 seconds (JVM running for 11.129)
+14:49:29.833 logback [http-nio-8008-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:49:29.834 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:49:29.846 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+14:49:29.892 logback [http-nio-8008-exec-2] INFO  c.y.w.e.filter.AuthFilter - 该请求不需要通过过滤器
+14:49:29.984 logback [http-nio-8008-exec-2] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+14:50:44.542 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 1400 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+14:50:44.549 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+14:50:45.575 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+14:50:45.633 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:50:45.787 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 142ms. Found 6 repository interfaces.
+14:50:46.317 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f6c49e07] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:50:46.828 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+14:50:46.851 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+14:50:46.858 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:50:46.858 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:50:46.870 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+14:50:47.123 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:50:47.124 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2504 ms
+14:50:47.360 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:50:47.663 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:50:47.742 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+14:50:47.856 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+14:50:47.860 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:50:48.093 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+14:50:48.353 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:50:48.644 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+14:50:49.677 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:50:50.130 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:50:50.141 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:50:50.141 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:50:50.141 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+14:50:50.141 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:50:50.141 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+14:50:50.680 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:50:50.743 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:50:51.074 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+14:50:51.091 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:50:51.113 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+14:50:51.116 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 7.378 seconds (JVM running for 10.929)
+14:51:07.568 logback [http-nio-8008-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:51:07.568 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:51:07.580 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+14:51:07.630 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.AuthFilter - 该请求不需要通过过滤器
+14:51:07.772 logback [http-nio-8008-exec-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+14:53:44.125 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 7764 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+14:53:44.132 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+14:53:45.313 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+14:53:45.371 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:53:45.518 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 137ms. Found 6 repository interfaces.
+14:53:46.036 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f2bdf965] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:53:46.511 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+14:53:46.532 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+14:53:46.539 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:53:46.539 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:53:46.550 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+14:53:46.778 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:53:46.778 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2551 ms
+14:53:47.021 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:53:47.326 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:53:47.413 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+14:53:47.531 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+14:53:47.536 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:53:47.764 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+14:53:48.012 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:53:48.288 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+14:53:49.296 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:53:49.725 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:53:49.733 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:53:49.733 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:53:49.733 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+14:53:49.733 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:53:49.733 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+14:53:50.260 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:53:50.324 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:53:50.654 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+14:53:50.670 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:53:50.693 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+14:53:50.696 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 7.376 seconds (JVM running for 10.784)
+14:54:01.594 logback [http-nio-8008-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:54:01.594 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:54:01.606 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+14:54:01.651 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.AuthFilter - 该请求不需要通过过滤器
+14:54:01.745 logback [http-nio-8008-exec-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+14:54:19.881 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 15832 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+14:54:19.887 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+14:54:21.251 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+14:54:21.304 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+14:54:21.544 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 227ms. Found 6 repository interfaces.
+14:54:22.114 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae4c16bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:54:22.608 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+14:54:22.626 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+14:54:22.633 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:54:22.634 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+14:54:22.644 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+14:54:22.881 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:54:22.881 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2916 ms
+14:54:23.140 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:54:23.470 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:54:23.551 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+14:54:23.676 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+14:54:23.681 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:54:23.913 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+14:54:24.183 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:54:24.473 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+14:54:25.485 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:54:25.961 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:54:25.969 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:54:25.970 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:54:25.970 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+14:54:25.970 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:54:25.970 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+14:54:26.744 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:54:26.822 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:54:27.328 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+14:54:27.345 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:54:27.367 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+14:54:27.370 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 8.253 seconds (JVM running for 11.646)
+14:54:28.827 logback [http-nio-8008-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:54:28.828 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:54:28.841 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+14:54:28.891 logback [http-nio-8008-exec-2] INFO  c.y.w.e.filter.AuthFilter - 该请求不需要通过过滤器
+14:54:28.983 logback [http-nio-8008-exec-2] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+14:55:49.276 logback [http-nio-8008-exec-4] INFO  c.y.w.e.filter.AuthFilter - 该请求不需要通过过滤器
+14:55:49.284 logback [http-nio-8008-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:55:55.129 logback [http-nio-8008-exec-5] INFO  c.y.w.e.filter.AuthFilter - 该请求不需要通过过滤器
+15:15:20.994 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 16080 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+15:15:20.999 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+15:15:22.269 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+15:15:22.338 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:15:22.497 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 149ms. Found 6 repository interfaces.
+15:15:22.950 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$28203ed5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:15:23.374 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+15:15:23.391 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+15:15:23.399 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:15:23.399 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+15:15:23.409 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+15:15:23.636 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:15:23.636 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2543 ms
+15:15:23.821 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:15:23.961 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:15:24.140 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+15:15:24.245 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+15:15:24.250 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+15:15:24.411 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+15:15:24.633 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:15:24.899 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+15:15:25.736 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:15:26.100 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+15:15:26.106 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:15:26.106 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:15:26.107 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+15:15:26.107 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+15:15:26.107 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+15:15:26.606 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:15:26.663 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:15:26.966 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+15:15:26.980 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+15:15:26.998 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+15:15:27.000 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 7.152 seconds (JVM running for 9.23)
+15:24:37.844 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 13368 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+15:24:37.850 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+15:24:38.893 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+15:24:38.946 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:24:39.106 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 148ms. Found 6 repository interfaces.
+15:24:39.660 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3ec587f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:24:40.133 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+15:24:40.151 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+15:24:40.158 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:24:40.158 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+15:24:40.168 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+15:24:40.385 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:24:40.385 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2467 ms
+15:24:40.611 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:24:40.897 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:24:40.982 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+15:24:41.096 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+15:24:41.100 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+15:24:41.324 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+15:24:41.570 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:24:41.856 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+15:24:42.823 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:24:43.290 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+15:24:43.297 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:24:43.297 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:24:43.297 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+15:24:43.297 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+15:24:43.297 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+15:24:43.824 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:24:43.882 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:24:44.233 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+15:24:44.249 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+15:24:44.273 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+15:24:44.276 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 7.171 seconds (JVM running for 9.856)
+15:24:59.070 logback [http-nio-8008-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:24:59.070 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:24:59.087 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+15:24:59.149 logback [http-nio-8008-exec-2] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+15:29:44.131 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 7492 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+15:29:44.146 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+15:29:45.285 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+15:29:45.332 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:29:45.538 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 190ms. Found 6 repository interfaces.
+15:29:45.991 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$514dbb0a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:29:46.414 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+15:29:46.430 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+15:29:46.430 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:29:46.430 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+15:29:46.446 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+15:29:46.620 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:29:46.620 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2318 ms
+15:29:46.877 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:29:47.002 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:29:47.203 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+15:29:47.286 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+15:29:47.286 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+15:29:47.489 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+15:29:47.692 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:29:47.926 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+15:29:48.682 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:29:49.002 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+15:29:49.017 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:29:49.017 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:29:49.017 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+15:29:49.017 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+15:29:49.017 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+15:29:49.488 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:29:49.534 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:29:49.831 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+15:29:49.831 logback [main] ERROR o.apache.catalina.util.LifecycleBase - Failed to start component [Connector[HTTP/1.1-8008]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at cn.yanglj65.www.eloth_backend.ElothBackendApplication.main(ElothBackendApplication.java:15)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1108)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:550)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:957)
+	... 14 common frames omitted
+15:29:49.847 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8008"]
+15:29:49.847 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+15:29:49.847 logback [main] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+15:29:49.847 logback [main] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+15:29:49.847 logback [main] INFO  o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+15:29:49.847 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8008"]
+15:29:49.847 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8008"]
+15:29:49.862 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:29:49.862 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8008 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8008, or configure this application to listen on another port.
+
+15:29:49.862 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:29:49.862 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:29:49.878 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:29:49.878 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:30:27.616 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 14476 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+15:30:27.616 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+15:30:28.816 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+15:30:28.862 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:30:28.987 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125ms. Found 6 repository interfaces.
+15:30:29.405 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$30248d57] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:30:29.795 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+15:30:29.811 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+15:30:29.827 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:30:29.827 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+15:30:29.827 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+15:30:30.014 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:30:30.014 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2211 ms
+15:30:30.217 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:30:30.349 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:30:30.529 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+15:30:30.631 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+15:30:30.631 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+15:30:30.819 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+15:30:31.049 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:30:31.304 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+15:30:32.053 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:30:32.374 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+15:30:32.374 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:30:32.374 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:30:32.374 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+15:30:32.374 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+15:30:32.374 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+15:30:32.845 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:30:32.908 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:30:33.157 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+15:30:33.157 logback [main] ERROR o.apache.catalina.util.LifecycleBase - Failed to start component [Connector[HTTP/1.1-8008]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at cn.yanglj65.www.eloth_backend.ElothBackendApplication.main(ElothBackendApplication.java:15)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1108)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:550)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:957)
+	... 14 common frames omitted
+15:30:33.157 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8008"]
+15:30:33.157 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+15:30:33.173 logback [main] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+15:30:33.173 logback [main] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+15:30:33.173 logback [main] INFO  o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+15:30:33.173 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8008"]
+15:30:33.173 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8008"]
+15:30:33.173 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:30:33.189 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8008 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8008, or configure this application to listen on another port.
+
+15:30:33.189 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:30:33.189 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:30:33.189 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:30:33.189 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:37:03.304 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 6340 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+15:37:03.310 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+15:37:04.460 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+15:37:04.514 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:37:04.658 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 134ms. Found 6 repository interfaces.
+15:37:05.143 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b17dc540] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:37:05.570 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+15:37:05.585 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+15:37:05.592 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:37:05.593 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+15:37:05.601 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+15:37:05.843 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:37:05.843 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2445 ms
+15:37:06.069 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:37:06.217 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:37:06.411 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+15:37:06.512 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+15:37:06.515 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+15:37:06.716 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+15:37:06.941 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:37:07.189 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+15:37:08.090 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:37:08.465 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+15:37:08.471 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:37:08.472 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:37:08.472 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+15:37:08.472 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+15:37:08.472 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+15:37:09.011 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:37:09.065 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:37:09.375 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+15:37:09.390 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+15:37:09.408 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+15:37:09.411 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 7.251 seconds (JVM running for 8.819)
+15:37:27.902 logback [http-nio-8008-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:37:27.903 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:37:27.921 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+15:37:27.973 logback [http-nio-8008-exec-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+15:38:12.038 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 9172 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+15:38:12.043 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+15:38:13.649 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+15:38:13.710 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:38:13.861 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 138ms. Found 6 repository interfaces.
+15:38:14.400 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$59017baf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:38:15.118 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+15:38:15.133 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+15:38:15.142 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:38:15.142 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+15:38:15.155 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+15:38:15.435 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:38:15.435 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3214 ms
+15:38:15.724 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:38:16.035 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:38:16.111 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+15:38:16.259 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+15:38:16.262 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+15:38:16.444 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+15:38:16.690 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:38:16.948 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+15:38:17.892 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:38:18.479 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+15:38:18.487 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:38:18.487 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:38:18.487 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+15:38:18.487 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+15:38:18.488 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+15:38:19.340 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:38:19.422 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:38:19.922 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+15:38:19.936 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+15:38:19.958 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+15:38:19.962 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 9.534 seconds (JVM running for 11.204)
+15:38:39.805 logback [http-nio-8008-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:38:39.805 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:38:39.829 logback [http-nio-8008-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+15:38:39.875 logback [http-nio-8008-exec-2] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+15:38:40.368 logback [http-nio-8008-exec-2] INFO  c.y.w.e.filter.TimeLogAspect - 执行前置切面
+15:38:40.371 logback [http-nio-8008-exec-2] INFO  c.y.w.e.filter.TimeLogAspect - 请求的URL=/bug/send，请求的ip=0:0:0:0:0:0:0:1，请求的端口=54475，请求的方法=POST，请求的包名=cn.yanglj65.www.eloth_backend.controller.BugController，请求的类名=sendBud
+15:38:40.371 logback [http-nio-8008-exec-2] INFO  c.y.w.e.filter.TimeLogAspect - 请求的Host: 0:0:0:0:0:0:0:1
+15:38:40.477 logback [http-nio-8008-exec-2] INFO  c.y.w.e.filter.TimeLogAspect - 执行后置切面
+15:38:40.477 logback [http-nio-8008-exec-2] INFO  c.y.w.e.filter.TimeLogAspect - 本次操作耗时:109ms 
+15:38:40.478 logback [http-nio-8008-exec-2] INFO  c.y.w.e.filter.TimeLogAspect - 返回结果:Result{errCode=0, msg='ok', data=cn.yanglj65.www.eloth_backend.entity.BugReporter@4c25fe73}
+15:39:14.065 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 14876 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+15:39:14.070 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+15:39:16.032 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+15:39:16.103 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:39:16.295 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 173ms. Found 6 repository interfaces.
+15:39:16.925 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2cdf0cd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:39:17.722 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+15:39:17.751 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+15:39:17.758 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:39:17.759 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+15:39:17.771 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+15:39:18.119 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:39:18.119 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3893 ms
+15:39:18.521 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:39:18.871 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:39:18.964 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+15:39:19.088 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+15:39:19.094 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+15:39:19.323 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+15:39:19.571 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:39:19.906 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+15:39:20.857 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:39:21.409 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+15:39:21.418 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:39:21.418 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:39:21.418 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+15:39:21.418 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+15:39:21.418 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+15:39:22.292 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:39:22.358 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:39:22.786 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+15:39:22.798 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+15:39:22.818 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+15:39:22.821 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 10.103 seconds (JVM running for 11.633)
+15:39:52.493 logback [http-nio-8008-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:39:52.493 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:39:52.521 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 28 ms
+15:39:52.564 logback [http-nio-8008-exec-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+15:39:53.067 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 执行前置切面
+15:39:53.069 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 请求的URL=/bug/send，请求的ip=0:0:0:0:0:0:0:1，请求的端口=54526，请求的方法=POST，请求的包名=cn.yanglj65.www.eloth_backend.controller.BugController，请求的类名=sendBud
+15:39:53.069 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 请求的Host: 0:0:0:0:0:0:0:1
+15:39:53.139 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 执行后置切面
+15:39:53.140 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 本次操作耗时:72ms 
+15:39:53.140 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 返回结果:Result{errCode=0, msg='ok', data=cn.yanglj65.www.eloth_backend.entity.BugReporter@125ef02d}
+15:47:09.972 logback [main] INFO  c.y.w.e.ElothBackendApplication - Starting ElothBackendApplication on DESKTOP-V7DJHC8 with PID 17400 (C:\Users\12849\IdeaProjects\eloth_backend\target\classes started by 12849 in C:\Users\12849\IdeaProjects\eloth_backend)
+15:47:10.020 logback [main] INFO  c.y.w.e.ElothBackendApplication - No active profile set, falling back to default profiles: default
+15:47:11.545 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yanglj65.www.eloth_backend]' package. Please check your configuration.
+15:47:11.607 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:47:11.781 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 164ms. Found 6 repository interfaces.
+15:47:12.408 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3df4c5fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:13.248 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8008 (http)
+15:47:13.270 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8008"]
+15:47:13.280 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:47:13.280 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+15:47:13.294 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\bin;C:\Users\12849\openCV3.2.0\opencv\build\x64\vc14\lib;C:\Users\12849\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python36\;C:\Users\12849\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\12849\AppData\Local\Programs\Python\Python37\;C:\Users\12849\AppData\Local\Microsoft\WindowsApps;C:\Users\12849\AppData\Roaming\npm;C:\Users\12849\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;.]
+15:47:13.597 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:47:13.598 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3404 ms
+15:47:13.938 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:47:14.228 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:47:14.314 logback [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+15:47:14.418 logback [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+15:47:14.424 logback [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+15:47:14.627 logback [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+15:47:14.852 logback [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:47:15.102 logback [main] INFO  o.h.id.enhanced.TableGenerator - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+15:47:16.081 logback [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:47:16.666 logback [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+15:47:16.673 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:47:16.674 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:47:16.674 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+15:47:16.674 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+15:47:16.674 logback [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'authFilter' to: [/*]
+15:47:17.571 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:47:17.667 logback [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:47:18.118 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8008"]
+15:47:18.131 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+15:47:18.153 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8008 (http) with context path ''
+15:47:18.156 logback [main] INFO  c.y.w.e.ElothBackendApplication - Started ElothBackendApplication in 9.747 seconds (JVM running for 11.653)
+15:47:45.885 logback [http-nio-8008-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:47:45.885 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:47:45.909 logback [http-nio-8008-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+15:47:45.953 logback [http-nio-8008-exec-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+15:47:46.428 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 环绕通知的方法名: sendBud
+15:47:46.429 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 执行前置切面
+15:47:46.429 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 请求的URL=/bug/send，请求的ip=0:0:0:0:0:0:0:1，请求的端口=54614，请求的方法=POST，请求的包名=cn.yanglj65.www.eloth_backend.controller.BugController，请求的类名=sendBud
+15:47:46.429 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 请求的Host: 0:0:0:0:0:0:0:1
+15:47:46.601 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 返回结果:Result{errCode=0, msg='ok', data=cn.yanglj65.www.eloth_backend.entity.BugReporter@5077cc6a}
+15:47:46.602 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 执行后置切面
+15:47:46.602 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 本次操作耗时:173ms 
+15:47:46.602 logback [http-nio-8008-exec-1] INFO  c.y.w.e.filter.TimeLogAspect - 返回结果:Result{errCode=0, msg='ok', data=cn.yanglj65.www.eloth_backend.entity.BugReporter@5077cc6a}
+16:00:40.224 logback [http-nio-8008-exec-5] INFO  c.y.w.e.filter.AuthFilter - 该请求不需要通过过滤器
+16:00:40.237 logback [http-nio-8008-exec-5] INFO  c.y.w.e.filter.TimeLogAspect - 环绕通知的方法名: uploadAvatar
+16:00:40.237 logback [http-nio-8008-exec-5] INFO  c.y.w.e.filter.TimeLogAspect - 执行前置切面
+16:00:40.237 logback [http-nio-8008-exec-5] INFO  c.y.w.e.filter.TimeLogAspect - 请求的URL=/user/upload/avatar，请求的ip=0:0:0:0:0:0:0:1，请求的端口=54753，请求的方法=POST，请求的包名=cn.yanglj65.www.eloth_backend.controller.UserController，请求的类名=uploadAvatar
+16:00:40.237 logback [http-nio-8008-exec-5] INFO  c.y.w.e.filter.TimeLogAspect - 请求的Host: 0:0:0:0:0:0:0:1
+16:00:40.297 logback [http-nio-8008-exec-5] INFO  c.y.w.e.filter.TimeLogAspect - 返回结果:Result{errCode=0, msg='ok', data=头像上传成功}
+16:00:40.298 logback [http-nio-8008-exec-5] INFO  c.y.w.e.filter.TimeLogAspect - 执行后置切面
+16:00:40.298 logback [http-nio-8008-exec-5] INFO  c.y.w.e.filter.TimeLogAspect - 本次操作耗时:61ms 
+16:00:40.298 logback [http-nio-8008-exec-5] INFO  c.y.w.e.filter.TimeLogAspect - 返回结果:Result{errCode=0, msg='ok', data=头像上传成功}
+16:01:20.313 logback [http-nio-8008-exec-6] INFO  c.y.w.e.filter.AuthFilter - 该请求不需要通过过滤器
+16:01:20.315 logback [http-nio-8008-exec-6] INFO  c.y.w.e.filter.TimeLogAspect - 环绕通知的方法名: getAvatar
+16:01:20.315 logback [http-nio-8008-exec-6] INFO  c.y.w.e.filter.TimeLogAspect - 执行前置切面
+16:01:20.315 logback [http-nio-8008-exec-6] INFO  c.y.w.e.filter.TimeLogAspect - 请求的URL=/user/getavatar，请求的ip=0:0:0:0:0:0:0:1，请求的端口=54753，请求的方法=GET，请求的包名=cn.yanglj65.www.eloth_backend.controller.UserController，请求的类名=getAvatar
+16:01:20.316 logback [http-nio-8008-exec-6] INFO  c.y.w.e.filter.TimeLogAspect - 请求的Host: 0:0:0:0:0:0:0:1
+16:01:20.323 logback [http-nio-8008-exec-6] INFO  c.y.w.e.filter.TimeLogAspect - 返回结果:<200 OK OK,URL [file:./static/img/avatar/3d3e17a1-c2c3-414e-9884-f760968d322c101.jpg],{}>
+16:01:20.323 logback [http-nio-8008-exec-6] INFO  c.y.w.e.filter.TimeLogAspect - 执行后置切面
+16:01:20.323 logback [http-nio-8008-exec-6] INFO  c.y.w.e.filter.TimeLogAspect - 本次操作耗时:8ms 
+16:01:20.323 logback [http-nio-8008-exec-6] INFO  c.y.w.e.filter.TimeLogAspect - 返回结果:<200 OK OK,URL [file:./static/img/avatar/3d3e17a1-c2c3-414e-9884-f760968d322c101.jpg],{}>

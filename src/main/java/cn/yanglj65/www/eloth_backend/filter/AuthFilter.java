@@ -25,7 +25,7 @@ import java.util.Set;
 //@WebFilter(filterName = "AuthFilter",urlPatterns = {"/cloth/*","/user/*","/bug/*"})
 public class AuthFilter implements Filter {
     private static final Set<String> ALLOWED_PATH = Collections.unmodifiableSet(new HashSet<>
-            (Arrays.asList("/user/login", "/user/register")));
+            (Arrays.asList("/user/login", "/user/register","/user/upload/avatar","/user/getavatar")));
     @Autowired
     AccessUtil accessUtil;
 
@@ -39,6 +39,7 @@ public class AuthFilter implements Filter {
         String path = request.getRequestURI().substring(request.getContextPath().length()).replaceAll("[/]+$", "");
         boolean isAllowedPath = ALLOWED_PATH.contains(path);
         if (isAllowedPath) {
+            logger.info("该请求不需要通过过滤器");
             chain.doFilter(req, resp);
         } else {
             response.setHeader("Access-Control-Allow-Origin", "*");

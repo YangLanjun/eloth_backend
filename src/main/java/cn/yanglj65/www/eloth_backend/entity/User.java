@@ -27,12 +27,34 @@ public class User {
     @Column(name = "create_time")
     @JsonView(UserView.UserCommonView.class)
     private String createTime;
-    @Column(name="role")
+    @Column(name = "role")
     @JsonView(UserView.UserCommonView.class)
-    private String role="COMMON";
-    @Column(name="phone")
+    private String role = "COMMON";
+    @Column(name = "phone")
     @JsonView(UserView.UserCommonView.class)
-    private  String phone;
+    private String phone;
+    @Column(name = "img_url")
+    @JsonView(UserView.UserCommonView.class)
+    private String imgUrl;
+    @Column(name = "nick_id")
+    @JsonView(UserView.UserCommonView.class)
+    private int nickId = 0;
+
+    public String getImgUrl() {
+        return imgUrl;
+    }
+
+    public void setImgUrl(String imgUrl) {
+        this.imgUrl = imgUrl;
+    }
+
+    public int getNickId() {
+        return nickId;
+    }
+
+    public void setNickId(int nickId) {
+        this.nickId = nickId;
+    }
 
     public String getPhone() {
         return phone;
@@ -97,4 +119,5 @@ public class User {
     public void setAccessToken(String accessToken) {
         this.accessToken = accessToken;
     }
+
 }
